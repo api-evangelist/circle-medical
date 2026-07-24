@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://www.circlemedical.com/.well-known/*
+host: https://www.circlemedical.com
+note: >-
+  Circle Medical is a consumer telehealth/primary-care provider with no public
+  developer surface. No /.well-known/ discovery documents are published. Negatives
+  recorded for auditability; no WellKnown/SecurityTxt pointer is wired (no 200 hit).
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404

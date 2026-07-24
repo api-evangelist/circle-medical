@@ -1,8 +1,16 @@
 aid: circle-medical
 name: Circle Medical
-description: Circle Medical is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Circle Medical is a San Francisco-based online and in-person primary care clinic
+  offering telemedicine and clinic-based visits with same and next-day availability.
+  Founded through Y Combinator, the company operates 20+ physical locations and provides
+  virtual appointments across multiple US states through Circle Medical Care of California,
+  an independent medical practice. Its 400+ board-certified physicians, physician assistants,
+  and nurse practitioners treat primary care, mental health (ADHD, anxiety, depression),
+  hormone and sexual health, urgent care, weight loss (GLP-1s), sleep, and dermatology.
+  Circle Medical is a HIPAA-covered, patient-facing digital health provider; it publishes
+  no public developer API or SDK program, and this profile captures its public web,
+  legal, support, and security surface for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/circle-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,56 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Telehealth
+- Primary Care
+- Digital Health
+- Telemedicine
+- HIPAA
+image: https://www.circlemedical.com/_astro/logo.B6HQVoip.webp
 apis: []
+common:
+- type: DomainSecurity
+  url: security/circle-medical-domain-security.yml
+- type: Website
+  url: https://www.circlemedical.com
+- type: Blog
+  url: https://www.circlemedical.com/blog
+- type: Support
+  url: https://help.circlemedical.com/en
+- type: HelpCenter
+  url: https://help.circlemedical.com/en
+- type: PrivacyPolicy
+  url: https://www.circlemedical.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.circlemedical.com/legal/terms-of-use
+- type: Compliance
+  url: https://www.circlemedical.com/legal/notice-of-hipaa-privacy-practices
+- type: GitHubOrganization
+  url: https://github.com/circlemedical
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
